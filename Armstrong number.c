@@ -10,9 +10,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 int cube(int digit);
 int main()
 {
-    int limit,temp,rem,sum=0;
-    printf("Enter a limit:");
-    scanf("%d",&limit);
+    int n,temp,rem,sum=0;
+    printf("Enter a number:");
+    scanf("%d",&n);
     temp=n;
     while(n!=0)
     {
